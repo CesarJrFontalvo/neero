@@ -9,7 +9,11 @@ body {
 
 
 
-
+.seccion0{
+  position: static;
+  /* top: -900px; */
+  display: none;
+}
 .home-1 {
   background: url(../public/img/fondo-personas.png) no-repeat 90%;
 }
@@ -91,6 +95,11 @@ background-color: #86BC26;
     url("../public/img/Enmascarar1.png") no-repeat;
     
   }
+  .seccion0{
+    position: static;
+    /* top: -900px; */
+    display: flex;
+  }
   #seccion1{
     min-height: 220px;
   }
@@ -115,7 +124,7 @@ background-color: #86BC26;
   .logoFinso {
     width: 200px;
     position: relative;
-    top: -385px;
+    top: -370px;
     left: 40px;
   }
   .formulario1{
@@ -126,8 +135,9 @@ background-color: #86BC26;
     padding: 0 0 0 15px;
   }
   .seccion4{
-    position: relative;
-    top: -900px;
+    position: static;
+    /* top: -900px; */
+    display: none;
   }
   .btnSiguiente{
 margin-right: 25%;

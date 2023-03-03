@@ -10,6 +10,11 @@ const CreditApplication = () => {
     return (
         <div>
             <div className='row fondo ' style={{ minHeight: '100vh', backgroundColor: '#BDD4C8' }}>
+            <div className='row m-0 seccion0' >
+                <div className='col-4' style={{ backgroundColor: '#F5A712', height: '10px' }}></div>
+                <div className='col-4' style={{ backgroundColor: '#006D31', height: '10px' }}></div>
+                <div className='col-4' style={{ backgroundColor: '#76B52A', height: '10px' }}></div>
+            </div>
                 <div className='col-12 col-md-4 col-lg-4' id='seccion1' ></div>
                 <div className='col-12 col-md-4 col-lg-4 box2 '>
                     <h4 className='text-mediun' >Es momento de</h4>
